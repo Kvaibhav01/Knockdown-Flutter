@@ -1,6 +1,6 @@
 # project04 - The fourth knockdown :punch:
 
-## Statefull and Stateless Widgets in Flutter 
+## Stateful and Stateless Widgets in Flutter 
 
 This app focuses on describing/making Stateful/Stateless Widgets and making a fresh Dart class by following these steps:
 
