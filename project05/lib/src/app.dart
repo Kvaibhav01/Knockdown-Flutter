@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // Declare a new class which uses Stateful widget
 class App extends StatefulWidget {
-  // Use createState method
+  // Use createState method to make a mutable state for this widget. See docs: https://docs.flutter.io/flutter/widgets/StatefulWidget/createState.html
   createState() {
     // Return our State class
     return StateKeeper();
