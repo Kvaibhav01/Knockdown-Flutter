@@ -4,7 +4,7 @@
 
 This app focuses on making a Stateful Widget by implementing a counter by these steps:
 
-**_project04 > lib > src > **app.dart**_**
+**_project05 > lib > src > **app.dart**_**
 
 1. `class StateKeeper extends State<App>` We change the class name from `App` to `StateKeeper` and extend it to the [`State`](https://docs.flutter.io/flutter/widgets/State-class.html) class which is used to update only that specific _state_ of the app UI which needs updation (in this case, it's the `Text`). Inside the angular brackets we pass in the class which `extends` our `StatefulWidget`.
 
