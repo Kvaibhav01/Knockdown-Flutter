@@ -1,16 +1,12 @@
 # smack_dot
+-This is a simple game built using flutter
+-Designed for Android devices 
+-Contains 3 pages the splash page , the game page and the end page
+-During the gameplay there is a countdown from 30 seconds with in which the user has to tap a button , on clicking which will move to a random place 
+-The score will be calculated and displayed at the end
+#MY github link
+https://github.com/ZOROsrk/Smack_Dot
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
