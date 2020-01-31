@@ -1,3 +1,4 @@
+import 'package:devfest_demo/config/index.dart';
 import 'package:devfest_demo/utils/devfest_demo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -15,18 +16,5 @@ Future<void> main() async {
   //? This returns a Future
   DevFestDemo.prefs = await SharedPreferences.getInstance();
 
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'DevFest Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
-    );
-  }
+  runApp(ConfigPage());
 }

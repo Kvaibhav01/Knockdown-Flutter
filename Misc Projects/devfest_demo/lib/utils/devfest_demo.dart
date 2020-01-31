@@ -8,7 +8,7 @@ class DevFestDemo {
   static const String app_version = 'Version 1.0.0';
   static const int app_version_code = 1;
 
-  static const String app_color = "#ffd7167";
+  static const String app_color = '#ffd7167';
   static const Color primaryAppColor = Colors.white;
   static const Color secondaryAppColor = Colors.black;
 
@@ -18,4 +18,5 @@ class DevFestDemo {
 
   //* Preferences
   static SharedPreferences prefs;
+  static const String darkModePref = 'darkModePref';
 }
