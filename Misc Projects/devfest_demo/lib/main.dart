@@ -1,3 +1,4 @@
+import 'package:devfesr_demo/config/config_page.dart';
 import 'package:devfesr_demo/utils/devfest.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -12,16 +13,5 @@ Future<void> main() async {
 
   Devfest.prefs = await SharedPreferences.getInstance();
 
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Google DevFest',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
-    );
-  }
+  runApp(ConfigPage());
 }
